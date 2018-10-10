@@ -142,7 +142,7 @@ class EWZRecaptchaType extends AbstractType
      */
     public function getParent()
     {
-        return TextType::class;
+        return get_class(new TextType);
     }
 
     /**
